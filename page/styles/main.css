@@ -1,0 +1,20 @@
+@import "menu.css";
+@import "login_register_form.css";
+@import "footer.css";
+
+body{
+    text-align: center;
+    height: 100%;
+}
+
+#container{
+    text-align: justify;
+    width: 700px;
+    margin: auto;
+}
+
+
+#header, #footer, #content{
+    width: 100%;
+    float: left;
+}
