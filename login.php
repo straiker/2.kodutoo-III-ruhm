@@ -1,4 +1,7 @@
 <?php
+require_once "../functions.php";
+require_once "../config.php";
+
 $email_error = "";
 $pswd_error = "";
 
@@ -18,7 +21,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
         }
     }
 }
-require_once 'header.php';
+require_once '../header.php';
 ?>
 
 <div id="login_form">
@@ -38,4 +41,4 @@ require_once 'header.php';
         Proin lacinia hendrerit lobortis. Mauris ut quam nisl. Mauris fermentum accumsan orci, id condimentum massa molestie quis. Suspendisse porttitor ligula vel turpis pharetra ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consequat condimentum tristique. Nam accumsan libero id odio eleifend lobortis.
     </p>
 </div>
-<?php require_once 'footer.php'; ?>
+<?php require_once '../footer.php'; ?>
